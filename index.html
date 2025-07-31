@@ -4,6 +4,7 @@
     <head>
         <title>quiz para programadores</title>
         <meta name="description" content="Um quiz interativo para textar seus conhecimentos">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
     <header>
@@ -111,7 +112,7 @@
                 Pergunta 8: qual linguagem de programação é representada pelo logotipo abaixo?
             </h2>
             <figure>
-            <img src="./assets/images.png" alt="logotipo de uma linguagem de programação"> <br>
+            <img src="./assets/logotipo-java.png" alt="logotipo de uma linguagem de programação"> <br>
         <figcaption>Figura 1: Logotipo de uma linguagem de programação</figcaption>
             <form>
             </figure>
@@ -140,29 +141,29 @@
                     
                 
                 <tr>
-                    <td>0-2</td>
-                    <td>
-                        não desiosta! cada tentativa é uma oportunidade de aprender.
+                    <td class="quantidadedeacertos">0-2</td>
+                    <td class="avaliacao">
+                        não desista! cada tentativa é uma oportunidade de aprender.
                     </td>
                 </tr>
 
                 <tr>
-                    <td>3-4</td>
-                    <td>
+                    <td class="quantidadedeacertos">3-4</td>
+                    <td class="avaliacao">
                         você ainda precisa melhorar. Que tal estudar um pouco mais de programação?
                     </td>
                 </tr>
 
                 <tr>
-                    <td>5-7</td>
-                    <td>
+                    <td class="quantidadedeacertos">5-7</td>
+                    <td class="avaliacao">
                         Bom! seu conhecimento em programação está sastisfatório.
                     </td>
                 </tr>
 
                 <tr>
-                    <td>8</td>
-                    <td>
+                    <td class="quantidadedeacertos">8</td>
+                    <td class="avaliacao">
                         Perfeito!  você está muito bem informado sobre programação.
                     </td>
                 </tr>
@@ -170,7 +171,7 @@
             </body>
         </section>
 
-        <!--lista de resostas-->
+        <!--lista de respostas-->
         <section>
             
         <h2>Verifique suas respostas</h2>
@@ -180,7 +181,7 @@
             <li>1: HTML</li>
             <li>2: Domínio</li>
             <li>3: A senha deve ter caracteres especiais, letra maiscula e minuscula, e numeros. como por exemplo: H8fkmçs@</li>
-            <li>4: 1991</li>
+            <li>4: 1993</li>
             <li>5: Javascript, Java</li>
             <li>6: O arquivo deve ter a extensão .html</li>
             <li>7: type</li>
@@ -208,8 +209,9 @@
         </section>
     </main>
     <footer>
-        <p>&copy Quiz de programadores. Todos os direitos reservados</p>
-    <p>Para conhecer mais sobre mim ,  <a href="sobremim.html" target="-blank"> clique aqui. </a></p>
+        <p class="paragrafo-footer">&copy Quiz de programadores. Todos os direitos reservados</p>
+    
+        <p class="paragrafo">&copy Veja a explicação das respostas e dicas para evoluir seus conhecimentos em programação. <a href="segunda-pagina.html" target="_blank"> Clique aqui. </a> </p>
        
     </footer>
     </body>
